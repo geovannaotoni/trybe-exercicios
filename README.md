@@ -1,6 +1,7 @@
 # trybe-exercicios
 
 Turma 30 | Janeiro de 2023.
+<br>
 A Trybe é uma escola de tecnologia mais orientada para o desenvolvimento de uma carreira 
 de sucesso. Com o Modelo de Sucesso Compartilhado, quem estuda na Trybe tem a opção 
 de pagar apenas quando já estiver trabalhando. 
