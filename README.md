@@ -1,4 +1,4 @@
-# trybe-exercicios
+# Meu Portifólio de Exercícios
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Geovanna](https://www.linkedin.com/in/geovanna-otoni-325a81180/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
