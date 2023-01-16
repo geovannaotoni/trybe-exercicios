@@ -1,0 +1,12 @@
+git checkout -b fundamentos
+mkdir fundamentos
+cd fundamentos
+mkdir secao-01-unix-shell-e-git
+cd secao-01-unix-shell-e-git
+touch dia-01-unix-e-bash.txt
+code .
+
+no terminal do VSCode
+git add .
+git commit - m ‘mensagem’
+git push -u origin fundamentos
