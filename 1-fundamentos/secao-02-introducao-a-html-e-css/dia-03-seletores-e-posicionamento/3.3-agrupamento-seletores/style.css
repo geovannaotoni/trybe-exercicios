@@ -1,0 +1,21 @@
+h1, p {
+    text-align: center;
+}
+
+/* colore a lista inteira num blocao so */
+ol:hover, ul:hover {
+    background-color: rgb(112, 112, 216);
+}
+
+/* colore cada linha, cada item da lista
+li:hover {
+    background-color: rgb(112, 112, 216);
+}
+*/
+li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
