@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(251, 252, 253);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: blue;
+  width: 100%;
+  padding: 20px;
+}
+
+header h1 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+img {
+  width: 400px;
+  border: 5px solid blue;
+  box-shadow: 3px black;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  color: blue;
+}
+
+article, .lado-esquerdo {
+  line-height: 20px;
+  display: inline;
+  width: 60%;
+  float: left;
+}
+
+aside, .lado-direito {
+  display: inline;
+  width: 30%;
+  float: right;
+}
+
+ul, ol {
+  display: inline-block;
+}
+
+#listas {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: aliceblue;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+footer p {
+  width: fit-content;
+  margin: 0 auto;
+}
