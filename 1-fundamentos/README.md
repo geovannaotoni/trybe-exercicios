@@ -2,18 +2,18 @@
 
 ##### Bloco 1: Unix, Shell e Git
 
-- [ ] 1-1: _Unix & Shell- Part 1_
-- [ ] 1-2: _Unix & Shell- Part 2_
-- [ ] 1-3: _Git - O que é e para que serve?_
-- [ ] 1-4: _Git & GitHub - Entendendo os comandos_
+- [X] 1-1: _Unix & Shell- Part 1_
+- [X] 1-2: _Unix & Shell- Part 2_
+- [X] 1-3: _Git - O que é e para que serve?_
+- [X] 1-4: _Git & GitHub - Entendendo os comandos_
 
 ##### Bloco 2: Introdução à HTML & CSS
 
-- [ ] 2-1: _Estruturas de páginas_
-- [ ] 2-2: _Primeiros passos em CSS_
-- [ ] 2-3: _Seletores e posicionamento_
-- [ ] 2-4: _HTML Semântico_
-- [ ] 2.5: _Projeto - Lessons Learned_
+- [X] 2-1: _Estruturas de páginas_
+- [X] 2-2: _Primeiros passos em CSS_
+- [X] 2-3: _Seletores e posicionamento_
+- [X] 2-4: _HTML Semântico_
+- [X] 2.5: _Projeto - Lessons Learned_
 
 ##### Bloco 3: Introdução à JavaScript
 
