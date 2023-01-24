@@ -13,3 +13,9 @@ function isTriangle (a, b, c) {
 console.log(isTriangle(50,100,30));
 console.log(isTriangle(90,100,30));
 console.log(isTriangle(-50,100,130));
+
+strings = 'bla'
+num = 12
+array = [1, 2]
+console.log(typeof strings.length == typeof num)
+console.log(typeof array)
