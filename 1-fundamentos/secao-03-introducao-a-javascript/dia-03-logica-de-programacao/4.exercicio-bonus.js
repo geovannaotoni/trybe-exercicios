@@ -1,16 +1,24 @@
 let n = 5;
 let symbol = '*';
-let space = '-';
-let lineIndex = Math.ceil(n/2);
+let space = ' ';
+let meioMatriz = Math.floor(n/2); //arredonda pra baixo
+let controleEsquerdo = meioMatriz;
+let controleDireito = meioMatriz;
 let result = '';
 
 
-for (lineIndex; lineIndex > 0; lineIndex -= 1) {
+for (let lineIndex = 0; lineIndex <= meioMatriz; lineIndex += 1) {
   for (let columnIndex = 0; columnIndex < n; columnIndex += 1) {
-    result += symbol;
+    if(columnIndex >= controleEsquerdo && columnIndex <= controleDireito) {
+      result += symbol;
+    } else {
+      result += space;
+    }
   }
   console.log(result);
   result = '';
+  controleEsquerdo -= 1;
+  controleDireito += 1;
 }
 
 
