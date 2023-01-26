@@ -22,3 +22,10 @@ console.log(player);
 console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por ' + player.bestInTheWorld.length + ' vezes.')
 
 console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.')
+
+const pessoa = {
+  nome: 'Geovanna',
+  corFavorita: 'Azul',
+  cantorFavorito: 'Shawn Mendes',
+}
+console.log(pessoa);
