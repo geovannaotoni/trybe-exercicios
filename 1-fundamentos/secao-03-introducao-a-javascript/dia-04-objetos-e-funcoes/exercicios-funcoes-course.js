@@ -9,6 +9,7 @@ function verificaPalindromo(palavra) {
 
 console.log(verificaPalindromo('roma'));
 console.log(verificaPalindromo('arara'));
+console.log('roma'.split('').reverse().join(''));
 
 //Outra solução
 // function verificaPalindromo(palavra) {
@@ -91,7 +92,7 @@ function maisRepetido(arrayNumeros) {
   let numeroMaisRep = 0;
   for (let key in objNumeros){
     if(objNumeros[key] > repeticoes) {
-      numeroMaisRep = key;
+      numeroMaisRep = Number(key);
       repeticoes = objNumeros[key];
     }
   }
@@ -105,7 +106,7 @@ console.log(maisRepetido([1,1,5,10,10,10,1,1]));
 function somatorio(numero) {
   let soma = 0;
   if (numero < 0) {
-    return 'Erro, o número deve ser positivo.'
+    return 'Erro, o número deve ser positivo.';
   }
   for (let index = 1; index <= numero; index += 1){
     soma += index;
@@ -120,5 +121,16 @@ console.log(somatorio(-5));
 function verificaFimPalavra(palavra, fimPalavra) {
   return palavra.endsWith(fimPalavra);
 }
+
+//Minha outra solução
+// const verificaFimPalavra = (palavra1, palavra2) => {
+//   let verificador = true;
+//   for (let index = (palavra2.length - 1); index >= 0; index -= 1) {
+//     if (palavra1[palavra1.length - 1 - index] !== palavra2[palavra2.length - 1 - index]) {
+//       verificador = false;
+//     }
+//   }
+//   return verificador;
+// };
 
 console.log(verificaFimPalavra('Ser ou não ser, eis a questão','questão'))
