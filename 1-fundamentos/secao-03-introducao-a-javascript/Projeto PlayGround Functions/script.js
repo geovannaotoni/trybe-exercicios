@@ -37,6 +37,7 @@ console.log(footballPoints(1,2));
 console.log(footballPoints(0,0));
 
 // 5- Crie uma função que calcula o número de repetições do maior número 
+
 //Com sort
 // const highestCount = (array) => {
 //   array.sort((a, b) => b - a)
@@ -164,6 +165,7 @@ const techLista = (array, nome) => {
 console.log(techLista(['React','Jest','HTML','CSS','JavaScript'],'Lucas'));
 
 // 11 - Crie uma função de número de telefone - falta retornar caso algum numero do array repetir 3x
+
 // const generatePhoneNumber = (array) => {
 //   let stringPhone = '(';
   
@@ -253,7 +255,7 @@ console.log(triangleCheck(10,14,8)); // true
 // 13 - Crie uma função de boas vindas ao Bar da Trybe!
 const hydrate = (string) => {
   // função .match: https://www.encodedna.com/javascript/how-to-get-numbers-from-a-string-in-javascript.htm
-  // o '\d+' busca por um ou mais dígitos que também são números e o 'g'faz uma pesquisa global na string, retornando todas as ocorrências numéricas.
+  // o '\d+' busca por um ou mais dígitos que também são números e o 'g' faz uma pesquisa global na string, retornando todas as ocorrências numéricas.
   let number = string.match(/\d+/g); //array com todos os numeros da string
   let sum = 0;
   for (let value of number) {
