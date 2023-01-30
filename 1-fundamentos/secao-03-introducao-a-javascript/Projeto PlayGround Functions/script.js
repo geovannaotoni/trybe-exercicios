@@ -1,6 +1,6 @@
 // 1- Crie uma função usando o operador &&
 const compareTrue = (param1, param2) => {
-  if (param1 === true & param2 === true) {
+  if (param1 === true && param2 === true) {
     return true;
   }
   return false;
@@ -13,24 +13,24 @@ console.log(compareTrue(girafa, elefante));
 console.log(compareTrue(macaco, elefante));
 
 // 2 - Crie uma função que divida uma frase
-const splitSentece = (string) => string.split(' ');
+const splitSentence = (string) => string.split(' ');
 
-console.log(splitSentece('vamo que vamo'));
-console.log(splitSentece('go Trybe'));
-console.log(splitSentece('foguete'));
+console.log(splitSentence('vamo que vamo'));
+console.log(splitSentence('go Trybe'));
+console.log(splitSentence('foguete'));
 
 // 3- Crie uma função que use concatenação de strings
 const concatName = (array) => {
   let arrayItens = [];
   arrayItens.push(array[array.length - 1], array[0]);
   return arrayItens.join(', ');
-}
+};
 
 console.log(concatName(['lucas', 'cassiano', 'ferraz', 'paolillo']));
 console.log(concatName(['foguete', 'não', 'tem', 'ré']));
 
 // 4- Crie uma função que calcule a quantidade de pontos em um campeonato de futebol
-const footballPoints = (wins, ties) => wins*3 + ties;
+const footballPoints = (wins, ties) => wins * 3 + ties;
 
 console.log(footballPoints(14,8));
 console.log(footballPoints(1,2));
@@ -54,8 +54,8 @@ console.log(footballPoints(0,0));
 
 // sem sort
 const highestCount = (array) => {
-  maiorNum = 0;
-  contador = 0;
+  let maiorNum = array[0];
+  let contador = 0;
   for (let index in array) {
     if (array[index] > maiorNum) {
       maiorNum = array[index];
@@ -70,6 +70,7 @@ const highestCount = (array) => {
 console.log(highestCount([9,1,2,3,9,5,7])); //2
 console.log(highestCount([0,4,4,4,9,2,1])); //1
 console.log(highestCount([0,0,0])); //3
+console.log(highestCount([-2,-2,-1])) //1
 
 // Crie 3 funções para calcular as áreas de um triângulo e de um retângulo
 const calcTriangleArea = (base, height) => base * height / 2;
@@ -148,11 +149,43 @@ const encode = (string) => {
 console.log(encode('hi there!'));
 console.log(encode('How are you today?'));
 
+const decode = (string) => {
+  const codigo = {
+    1: 'a',
+    2: 'e',
+    3: 'i',
+    4: 'o',
+    5: 'u',
+  }
+  let newString = '';
+  for (let letter of string) {
+    if (codigo[letter]) {
+      newString += codigo[letter];
+    } else {
+      newString += letter;
+    }
+  }
+  return newString;
+};
+console.log(decode('h3 th2r2!'))
+
 // 10 - Crie uma função de Lista de Tecnologias - ordenado com sort
-const techLista = (array, nome) => {
+// const techList = (array, nome) => {
+//   let arrayOrd = array.sort();
+//   let arrayObj = [];
+//   for (let index in arrayOrd) {
+//     let obj = {
+//       tech: arrayOrd[index],
+//       name: nome,
+//     };
+//     arrayObj.push(obj);
+//   }
+//   return arrayObj;
+// };
+const techList = (array, nome) => {
   let arrayOrd = array.sort();
   let arrayObj = [];
-  for (let index in arrayOrd) {
+  for (let index = 0; index < arrayOrd.length; index += 1) {
     let obj = {
       tech: arrayOrd[index],
       name: nome,
@@ -162,7 +195,8 @@ const techLista = (array, nome) => {
   return arrayObj;
 };
 
-console.log(techLista(['React','Jest','HTML','CSS','JavaScript'],'Lucas'));
+console.log(techList(['React','Jest','HTML','CSS','JavaScript'],'Lucas'));
+console.log(techList([]));
 
 // 11 - Crie uma função de número de telefone - falta retornar caso algum numero do array repetir 3x
 
@@ -193,16 +227,15 @@ console.log(techLista(['React','Jest','HTML','CSS','JavaScript'],'Lucas'));
 //verifica se o array tem algum número que se repete mais de 2 vezes
 function contaRepeticoes(array) {
   let objNumeros = {};
-  for(let index in array) {
-    if (!objNumeros[array[index]]){
+  for (let index in array) {
+    if (!objNumeros[array[index]]) {
       objNumeros[array[index]] = 1;
     } else {
       objNumeros[array[index]] += 1;
     }
   }
-  //return objNumeros;
   for (let key in objNumeros) {
-    if (objNumeros[key] > 2 ) {
+    if (objNumeros[key] > 2) {
       return false;
     }
   }
@@ -235,9 +268,19 @@ const generatePhoneNumber = (array) => {
 
   return stringPhone;
 };
-
 console.log(generatePhoneNumber([1,2,3,4,5,6,7,8,9,0,1])) //(12) 34567-8901
 console.log(generatePhoneNumber([1,2,3,4,5,6,7,8,9,1,1])) 
+
+//solução com função mais facil
+function createPhoneNumber(numbers){
+  let format = "(xx) xxxxx-xxxx";
+  
+  for(let index = 0; index < numbers.length; index += 1) {
+    format = format.replace('x', numbers[index]);
+  }  
+  return format;
+}
+console.log(createPhoneNumber([1,2,3,4,5,6,7,8,9,0,1]))
 
 // 12 - Crie uma função que teste a condição de existência de um triângulo
 const triangleCheck = (lineA, lineB, lineC) => {
