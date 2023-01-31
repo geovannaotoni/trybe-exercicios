@@ -105,3 +105,23 @@ console.log(generPhoneNumber([9, 2, 3, 0, 5, -6, 7, 8, -7, 0, 1]));
 let phoneNumber = '12345678901';
 let resultado = phoneNumber.replace(/(\d{2})(\d{5})(\d{4})/,'($1) $2-$3');
 console.log(resultado);
+
+//função pra ver repetições - outro modo sem objetos, com dois for
+const verificaRepeticao = (array) => {
+  let count = 0;
+  for (let index = 0; index < array.length; index += 1) {
+    for (let indexAux = 0; indexAux < array.length; indexAux += 1) {
+      if (array[index] === array[indexAux]) {
+        count += 1;
+      }
+    }
+    if (count > 2) {
+      return false;
+    }
+    count = 0;
+  }
+  return true;
+};
+console.log(verificaRepeticao([1,2,3,4,5,6,7,8,9,0,1])) 
+console.log(verificaRepeticao([1,2,3,4,5,6,7,8,9,1,1])) 
+console.log(verificaRepeticao([1,2,3,4,7,6,7,8,9,7,0])) 
