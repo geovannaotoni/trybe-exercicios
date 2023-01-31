@@ -100,3 +100,8 @@ const generPhoneNumber = (array) => {
 // console.log(generPhoneNumber([1,2,3,4,5,6,7,8,9,0,1])) //(12) 34567-8901
 // console.log(generPhoneNumber([1,2,3,4,5,6,7,8,9,1,1])) 
 console.log(generPhoneNumber([9, 2, 3, 0, 5, -6, 7, 8, -7, 0, 1]));
+
+//utilizando a função replace
+let phoneNumber = '12345678901';
+let resultado = phoneNumber.replace(/(\d{2})(\d{5})(\d{4})/,'($1) $2-$3');
+console.log(resultado);
