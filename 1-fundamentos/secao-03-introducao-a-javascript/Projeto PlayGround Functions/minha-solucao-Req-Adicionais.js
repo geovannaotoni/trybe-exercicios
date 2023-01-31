@@ -1,5 +1,5 @@
 // Desafio 11 - Crie a função generatePhoneNumber
-//Solução com aviso do eslint sobre complexidade acima do permitido
+// Solução com aviso do eslint sobre complexidade acima do permitido
 // verifica se o array tem algum número que se repete mais de 2 vezes
 // const contaRepeticoes = (array) => {
 //   let objNumeros = {};
@@ -17,7 +17,7 @@
 //   }
 //   return true;
 // };
-// // gera o número de telefone
+// gera o número de telefone
 // const generatePhoneNumber = (array) => {
 //   let stringPhone = '(';
 //   let verificaRepeticoes = contaRepeticoes(array);
@@ -39,7 +39,8 @@
 //   return stringPhone;
 // };
 
-//Solução dividindo a função em várias funções menores
+// Solução dividindo a função em várias funções menores
+// função que gera um objeto com os números e a quantidade de vezes que ele se repetiu
 const contaNumeros = (array) => {
   let objNumeros = {};
   for (let index in array) {
@@ -51,6 +52,7 @@ const contaNumeros = (array) => {
   }
   return objNumeros;
 };
+// função que verifica se algum numero repetiu mais de duas vezes
 const verificaRepeticoes = (objNumeros) => {
   for (let key in objNumeros) {
     if (objNumeros[key] > 2) {
@@ -59,14 +61,16 @@ const verificaRepeticoes = (objNumeros) => {
   }
   return true;
 };
+// função que verifica se algum algarismo é menor que zero ou maior que nove
 const verificaNumeros = (array) => {
   for (let index = 0; index < array.length; index += 1) {
     if (array[index] < 0 || array[index] > 9) {
       return false;
     }
-    return true;
   }
+  return true;
 };
+// função que gera a string no formato do número de telefone
 const formatPhoneNumber = (array) => {
   let stringPhone = '(';
   for (let index = 0; index < array.length; index += 1) {
@@ -80,8 +84,8 @@ const formatPhoneNumber = (array) => {
   }
   return stringPhone;
 };
-
-const generPhoneNumber = (array) => {
+// função principal
+const generatePhoneNumber = (array) => {
   if (array.length !== 11) {
     return 'Array com tamanho incorreto.';
   }
@@ -106,12 +110,14 @@ const generPhoneNumber = (array) => {
 //   return conditionOne || conditionTwo;
 // };
 
-// Resolução reduzindo a complexidade da função, criando três funções separadas (uma para cada condição e uma para o checador) - Ainda com complexidade acima do permitido pelo ESLINT
+// Resolução reduzindo a complexidade da função, criando 4 funções separadas: Existem duas condições que permitem a validação de um triângulo. Por isso, eu dividi a primeira condição em  2 funções diferentes uma que faz o cálculo por linha e o outro para realizar a checagem de cada uma das três linhas). A segunda condição foi dividida em uma função que realiza a verificação. E a quarta e última função faz a verificação se uma das duas condições é atendida.
+const conditionOneLine = (a, b, c) => (a < b + c) && (a > Math.abs(b - c));
+
 const conditionOne = (lineA, lineB, lineC) => {
-  const checkOne = (lineA < lineB + lineC) && (lineA > Math.abs(lineB - lineC));
-  const checkTwo = (lineB < lineA + lineC) && (lineB > Math.abs(lineA - lineC));
-  const checkThree = (lineC < lineA + lineB) && (lineC > Math.abs(lineA - lineB));
-  return checkOne || checkTwo || checkThree;
+  const checkLineA = conditionOneLine(lineA, lineB, lineC);
+  const checkLineB = conditionOneLine(lineB, lineA, lineC);
+  const checkLineC = conditionOneLine(lineC, lineA, lineB);
+  return checkLineA || checkLineB || checkLineC;
 };
 
 const conditionTwo = (lineA, lineB, lineC) => {
