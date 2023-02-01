@@ -35,39 +35,47 @@ const alteraTexto = (event) => {
 };
 input.addEventListener('input', alteraTexto);
 
-// Gabarito:
-// input.addEventListener('input', (event) => {
-//   const techElement = document.querySelector('.tech');
-//   techElement.innerText = event.target.value;
-// });
+/* Gabarito: Com Função Anônima
+input.addEventListener('input', (event) => {
+  const techElement = document.querySelector('.tech');
+  techElement.innerText = event.target.value;
+});
+*/
 
-// - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele redirecione para alguma página; Que tal redirecionar para seu portfólio?
+// 4- Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele redirecione para alguma página; Que tal redirecionar para seu portfólio?
 
-const redirecionaPag = (event) => {
+const redirecionaPag = () => {
   // o replace navega para uma nova URL sem adicionar um novo registro ao histórico (exclui a página atual do histórico da sessão)
   // window.location.replace('https://geovannaotoni.github.io/');
 
   // o assign é usado apenas para ir para um novo local, permite retornar à página anterior
   window.location.assign('https://geovannaotoni.github.io/');  
-  
+
 };
 myWebpage.addEventListener('dblclick',redirecionaPag);
 
-// - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
-// a cor do mesmo;
+/*Gabarito com função anonima
+myWebpage.addEventListener('dblclick', () => {
+  window.location.replace('https://blog.betrybe.com/');
+});
+*/
+
+// 5- Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere a cor do mesmo;
+myWebpage.addEventListener('mouseover', (event) => {
+  event.target.style.color = 'blue';
+});
+
+myWebpage.addEventListener('mouseout', (event) => {
+  event.target.style.color = 'unset'; //unset: “resetar” a cor do elemento
+});
 
 // Segue abaixo um exemplo do uso de event.target:
-
-
 const resetText = (event) => {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';
-  // O event possui várias propriedades, porém a mais usada é o event.target,
-  // que retorna o objeto que disparou o evento.
+  // O event possui várias propriedades, porém a mais usada é o event.target, que retorna o objeto que disparou o evento.
 }
 
 firstLi.addEventListener('dblclick', resetText);
 
-// Não precisa passar o parâmetro dentro da callback resetText. O próprio
-// navegador fará esse trabalho por você, não é legal? Desse jeito, o
-// event.target na nossa função retornará o objeto 'firstLi'.
+// Não precisa passar o parâmetro dentro da callback resetText. O próprio navegador fará esse trabalho por você, não é legal? Desse jeito, o event.target na nossa função retornará o objeto 'firstLi'.
