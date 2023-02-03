@@ -57,6 +57,9 @@ button.addEventListener('click', () => {
   listItem.innerHTML = inputValue;
 
   listElement.appendChild(listItem);
+
+  //adicionei para zerar o input depois de clicar no botão
+  input.value = '';
 });
 /*
 Requisito 5: Agora dentro do console.log('estou disparando um evento')
