@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap" rel="stylesheet"> 
+  <script src="./data/cartoons.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Trunfotoon</title>
+</head>
+<body>
+  <header>
+    <h1>Trunfotoon</h1>
+    <p>Vitórias: <span id="victories">0</span></p>
+  </header>
+
+  <main>
+    <section class="cartoon-selection" >
+      <section class="cartoons">
+      </section>
+    </section>
+
+    <section class="arena">
+      <h2>Arena</h2>
+      <p>Escolha seu <span id="turn-marker">desenho</span></p>
+      <section class="cartoons-for-battle">
+        <div id="player">
+          <h3>Desenho escolhido</h3>
+          <img class="card" src="https://toppng.com/uploads/preview/oint-interrogation-point-d-interrogation-115628635697ubaj1toa2.png" alt="Interrogation point">
+          <div class="card-infos">
+            <h4 class="name">?</h4>
+            <p>Carisma: <span class="charisma">?</span></p>
+            <p>Poder: <span class="power">?</span></p>
+            <p>Popularidade: <span class="popularity">?</span></p>
+          </div>
+        </div>
+        <div id="rival">
+          <h3>Desenho rival</h3>
+          <img class="card" src="https://toppng.com/uploads/preview/oint-interrogation-point-d-interrogation-115628635697ubaj1toa2.png" alt="Interrogation point">
+          <div class="card-infos">
+            <h4 class="name">?</h4>
+            <p>Carisma: <span class="charisma">?</span></p>
+            <p>Poder: <span class="power">?</span></p>
+            <p>Popularidade: <span class="popularity">?</span></p>
+          </div>
+        </div>
+      </section>
+      <button id="battle" type="button">Batalhar!</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
