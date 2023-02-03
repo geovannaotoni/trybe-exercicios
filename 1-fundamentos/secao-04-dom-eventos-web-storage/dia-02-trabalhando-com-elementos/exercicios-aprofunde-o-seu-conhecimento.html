@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Adicione a tag h1 com o texto TrybeTrip - Agência de Viagens como filho da tag body
+      const body = document.querySelector('body');
+      const tagH1 = document.createElement('h1');
+      tagH1.innerText = 'TrybeTrip - Agência de Viagens';
+      body.appendChild(tagH1);
+
+      //Adicione a tag main com a classe main-content como filho da tag body;
+      const main = document.createElement('main');
+      main.className = 'main-content';
+      body.appendChild(main);
+
+      //Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+      const sectionCenter = document.createElement('section');
+      sectionCenter.className = 'center-content';
+      main.appendChild(sectionCenter);
+
+      //Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+      const paragraph = document.createElement('p');
+      sectionCenter.appendChild(paragraph);
+      paragraph.innerText = 'Viagens para todo o Brasil';
+
+      //Adicione a tag section com a classe left-content como filho da tag main criada no passo 2 e faça o mesmo com a classe right-content;
+      const sectionLeft = document.createElement('section');
+      sectionLeft.className = 'left-content'
+      main.appendChild(sectionLeft);
+      const sectionRight = document.createElement('section');
+      sectionRight.className = 'right-content';
+      main.appendChild(sectionRight);
+
+      //Adicione uma imagem com src e classe small-image. Esse elemento deve ser filho do section;
+      const imagem = document.createElement('img');
+      imagem.src = 'https://picsum.photos/200';
+      imagem.className = 'small-image';
+      sectionLeft.appendChild(imagem);
+
+      //Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, … como valores da lista. Essa lista deve ser filha do section
+      const unorderedList = document.createElement('ul');
+      sectionRight.appendChild(unorderedList);
+      const arrayList = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index = 0; index < arrayList.length; index += 1) {
+        let elementItem = document.createElement('li');
+        elementItem.innerText = arrayList[index];
+        unorderedList.appendChild(elementItem);
+      };
+
+      //Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+      for (let index = 1; index <= 3; index += 1) {
+        let tagH3 = document.createElement('h3');
+        tagH3.innerText = index;
+        main.appendChild(tagH3);
+      };
+
+      //Adicione a classe title na tag h1 criada;
+      tagH1.className = 'title';
+
+      //Adicione a classe description nas 3 tags h3 criadas;
+      const elementsTagH3 = document.getElementsByTagName('h3');
+      for (let index = 0; index < elementsTagH3.length; index += 1) {
+        elementsTagH3[index].className = 'description';
+      };
+
+      //Remova a section que possui a classe left-content;
+      const sectionLeftContent = document.getElementsByClassName('left-content');
+      main.removeChild(sectionLeftContent[0]);
+
+      //Centralize a section que possui a classe right-content;
+      const sectionRightContent = document.getElementsByClassName('right-content');
+      sectionRightContent[0].style.marginRight = 'auto';
+
+      //Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+      const sectionCenterContent = document.getElementsByClassName('center-content');
+      sectionCenterContent[0].parentElement.style.backgroundColor = 'green';
+
+      //Remova os dois últimos elementos (nove e dez) da lista criada;
+      const elementItens = document.getElementsByTagName('li')
+      elementItens[elementItens.length - 1].remove();
+      elementItens[elementItens.length - 1].remove();
+      //Gabarito:
+      // const ul = document.getElementsByTagName('ul')[0];
+      // ul.lastChild.remove();
+      // ul.lastChild.remove();
+
+    </script>
+  </body>
+</html>

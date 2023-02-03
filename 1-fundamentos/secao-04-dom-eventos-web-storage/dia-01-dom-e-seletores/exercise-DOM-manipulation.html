@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <footer>
+      <p>Último parágrafo.</p>
+    </footer>
+    <script>
+      // 1- função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos;
+      const mudaTexto = () => {
+        const paragraph = document.getElementsByTagName('p')[1];
+        paragraph.innerText = 'Daqui a 2 anos, eu me vejo trabalhando como Desenvolvedora Web ganhando um salário atrativo em uma empresa que eu admiro.'
+      };
+      mudaTexto();
+
+      // 2- função que mude a cor do quadrado amarelo para rgb(76, 164, 109);
+      const mudaCor = (element) => {
+        element.style.backgroundColor = 'rgb(76, 164, 109)';
+      };
+      const mainContent = document.getElementsByClassName('main-content')[0];
+      mudaCor(mainContent);
+
+      // 3- função que mude a cor do quadrado vermelho para branco;
+      const corParaBranco = (element) => {
+        element.style.backgroundColor = 'white';
+      }
+      const centerContent = document.getElementsByClassName('center-content')[0];
+      corParaBranco(centerContent);
+
+      // 4- função que corrija o texto da tag <h1>;
+        const corrigeTexto = (element, text) => {
+          element.innerText = text;
+        };
+        const h1 = document.getElementsByTagName('h1')[0];
+        corrigeTexto(h1, 'Desafio - JavaScript');
+
+      // 5- modifique o texto da primeira tag <p> para letras maiúsculas;
+        const upperCase = (element) => {
+          element.innerHTML = element.innerHTML.toUpperCase();
+        };
+        const firstTagP = document.getElementsByTagName('p')[0];
+        upperCase(firstTagP);
+
+      // 6- função que exiba o conteúdo de todas as tags <p> da seção principal (center-content) dentro do parágrafo do rodapé, separados por espaços.
+        const textsToFooter = () => {
+          const rodapeParagrafo = document.getElementsByTagName('p')[3];
+          const paragraphsList = document.getElementsByTagName('p');
+          let arrayTexts = [];
+          for (let index = 0; index < (paragraphsList.length - 1); index += 1) {
+            arrayTexts.push(paragraphsList[index].innerText); 
+          }
+          stringTexts = arrayTexts.join(' ');
+          rodapeParagrafo.innerText = stringTexts;
+        }; 
+        textsToFooter();
+    </script>
+  </body>
+</html>

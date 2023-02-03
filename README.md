@@ -36,12 +36,12 @@ Bloco 2: Introdução à HTML & CSS
 Bloco 3: Introdução à JavaScript
 </summary>
 
-- [ ] 3-1: _Primeiros passos_
-- [ ] 3-2: _Array e loop For_
-- [ ] 3-3: _Lógica de Programação e Algoritmos_
-- [ ] 3-4: _Objetos e funções_
-- [ ] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 3-6: _Projeto - Playground Functions_
+- [X] 3-1: _Primeiros passos_
+- [X] 3-2: _Array e loop For_
+- [X] 3-3: _Lógica de Programação e Algoritmos_
+- [X] 3-4: _Objetos e funções_
+- [X] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [X] 3-6: _Projeto - Playground Functions_
 </details>
 
 <details>

@@ -1,0 +1,62 @@
+body {
+  background-color: #E1F2D5;
+  color: #3E4854;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #034422;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 10px;
+}
+
+.cartoon-selection {
+  text-align: center;
+  margin: 10px;
+}
+
+.card {
+  border: 3px solid #A0F046;
+  height: 160px;
+  margin: 5px;
+  width: 120px;
+}
+
+.cartoons .card:hover {
+  border: 3px dotted #B51D49;
+}
+
+.arena {
+  text-align: center;
+}
+
+.arena p {
+  line-height: 0.7em;
+}
+
+.arena p.name {
+  font-weight: bold;
+}
+
+#player, #rival {
+  display: inline-block;
+  width: 30%;
+}
+
+#battle {
+  border: none;
+  border-radius: 10px;
+  color: #3E4854;
+  padding: 15px;
+  margin: 20px;
+}
+
+#battle:hover {
+  background-color: #FAFAFA;
+}
+
+#battle:active {
+  background-color: #A0F046;
+}

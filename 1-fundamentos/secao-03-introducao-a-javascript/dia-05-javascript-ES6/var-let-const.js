@@ -15,3 +15,16 @@ console.log(userName); // Resultado: Lucas
 let userName2 = 'Isabella';
 //let userName2 = 'Lucas';
 console.log(userName); // Resultado: erro
+
+const myObject = {
+  nome: 'Geovanna',
+  sobrenome: 'Karina'
+}
+myObject['sobrenome'] = 'Otoni'
+console.log(myObject);
+
+
+const myArray = [20,30,40];
+myArray.push(5);
+myArray[1] = 10;
+console.log(myArray);
