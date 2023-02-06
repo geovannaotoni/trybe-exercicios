@@ -1,0 +1,106 @@
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.pixel {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 2px;
+  background-color: white;
+}
+
+/* .color:nth-of-type(1) {
+  background-color: black;
+}
+
+.color:nth-of-type(2) {
+  background-color: blue;
+}
+
+.color:nth-of-type(3) {
+  background-color: green;
+}
+
+.color:nth-of-type(4) {
+  background-color: purple;
+} */
+
+* {
+  /*retira todas as configuraçoes que podem vir do navegador*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 5px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+  font-weight: bold;
+  /* border: 1px; */
+  font-size: 15px;
+}
+
+header {
+  background-color: aqua;
+  margin-top: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#color-palette {
+  text-align: center;
+  margin: 10px;
+}
+
+#gerar-quadro {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+};
+
+#pixel-board {
+  margin: 10px;
+}
+
+#clear-board, #button-random-color {
+  background-color: aqua;
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  bottom: 0;
+  position: relative;
+  width: 100%; 
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}

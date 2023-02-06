@@ -26,10 +26,10 @@
 
 ##### Bloco 4: JavaScript: DOM, Eventos e Web Storage
 
- - [ ] 4-1: _DOM e seletores_
- - [ ] 4-2: _Trabalhando com elementos_
- - [ ] 4-3: _Eventos_
- - [ ] 4-4: _Web Storage_
+ - [X] 4-1: _DOM e seletores_
+ - [X] 4-2: _Trabalhando com elementos_
+ - [X] 4-3: _Eventos_
+ - [X] 4-4: _Web Storage_
  - [ ] 4-5: _Projeto: Arte com Pixels_
  - [ ] 4-6: _Projetos Bônus_
 
