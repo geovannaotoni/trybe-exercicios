@@ -35,7 +35,7 @@ const saveList = () => {
 btnSubmit.addEventListener('click', (event) => {
   event.preventDefault();
   const li = document.createElement('li');
-  li.innerText = `Reserva para o dia ${getData(checkin.value)} até o dia ${getData(checkout.value)} Quarto ${getQuarto()} - Para ${getPessoas()} Pessoas - Obs: ${textArea.value}`;
+  li.innerText = `Reserva para o dia ${getData(checkin.value)} até o dia ${getData(checkout.value)}\nQuarto ${getQuarto()} - Para ${getPessoas()} Pessoas\nObs: ${textArea.value}`;
   ol.appendChild(li);
   saveList();
 });
