@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  text-align: center;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.container {
+  display: flex;
+}
+
+/* primeiro breakpoint: telas até 600px (celular e tablets) */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: aliceblue;
+    font-size: x-large;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 5px;
+    margin: 10px;
+  }
+}
+
+/* segundo breakpoint: telas até 992px (desktops) */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: antiquewhite;
+    font-size: x-large;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-around;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  p {
+    padding: 5px;
+    margin: 10px;
+  }
+}
+
+/* segundo breakpoint: telas maiores que 992px (screen, tv, etc) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: beige;
+    font-size: large;
+  }
+
+  /* .container {
+    flex-wrap: nowrap;
+  } */
+
+  header {
+    width: auto;
+  }
+
+  p , h2 , h3 {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .main-content h1 {
+    text-align: center;
+  }
+}
