@@ -19,7 +19,6 @@ const verifyLogin = () => {
 const enableSubmitBtn = () => {
   submitBtn.disabled = !agreement.checked;
 };
-
 // Inspiração: https://pt.stackoverflow.com/questions/25753/como-fazer-um-contador-de-caracteres-de-uma-textarea
 const countLetters = () => {
   const maxLength = 500;
@@ -70,10 +69,6 @@ const showData = () => {
     formData.appendChild(paragraph);
   }
 };
-
-submitBtn.addEventListener('click', (event) => {
-  event.preventDefault();
-});
 
 window.onload = () => {
   loginBtn.addEventListener('click', verifyLogin);
