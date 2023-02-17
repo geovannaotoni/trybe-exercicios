@@ -47,3 +47,12 @@ console.log(listSkillsValuesWithFor(student));
 
 // Com Object.values
 console.log(listSkillsValuesWithValues(student));
+
+const person = {
+  name: 'Geovanna',
+  adress: {
+    street: 1,
+    number: 12,
+  } 
+};
+console.log(Object.values(person));
