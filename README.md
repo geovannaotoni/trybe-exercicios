@@ -53,8 +53,8 @@ Bloco 4: JavaScript: DOM, Eventos e Web Storage
  - [X] 4-2: _Trabalhando com elementos_
  - [X] 4-3: _Eventos_
  - [X] 4-4: _Web Storage_
- - [ ] 4-5: _Projeto: Arte com Pixels_
- - [ ] 4-6: _Projetos Bônus_
+ - [X] 4-5: _Projeto: Arte com Pixels_
+ - [X] 4-6: _Projetos Bônus_
 </details>
 
 <details>

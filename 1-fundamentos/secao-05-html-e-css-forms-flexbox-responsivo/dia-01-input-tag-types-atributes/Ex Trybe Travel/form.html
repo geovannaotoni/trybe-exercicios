@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Form</title>
+</head>
+<body>
+  <h1 id="title">Formulário Trybe Travel</h1>
+  <form action="" id="main-form">
+    <label for="fullName">Nome Completo:
+      <input type="text" id="fullName" minlength="10" maxlength="40">
+    </label>
+    <br>
+    <label for="email">E-mail:
+      <input type="email" name="" id="email" maxlength="50">
+    </label>
+    <p>Destino Preferido:</p>
+    <label for="cidade">
+      <input type="radio" name="destinations" id="cidade">Cidade
+    </label>
+    <label for="campo">
+      <input type="radio" name="destinations" id="campo">Campo
+    </label>
+    <label for="praia">
+      <input type="radio" name="destinations" id="praia">Praia
+    </label>
+    <label for="montanha">
+      <input type="radio" name="destinations" id="montanha">Montanha
+    </label>
+    <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+    <textarea name="" id="question" cols="30" rows="10" maxlength="500"></textarea>
+    <p>Qual a melhor data para realizar sua viagem?</p>
+    <input type="date" name="" id="date">
+    <p>
+      <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+      <input type="checkbox" name="" id="promo">
+    </p>
+    <p>
+      <label for="agreement">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      <input type="checkbox" name="" id="agreement">
+    </p>
+    <button id="submit-btn" disabled>Enviar</button>
+    <button id="clear-btn">Limpar</button>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>

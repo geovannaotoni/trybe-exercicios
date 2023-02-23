@@ -30,13 +30,13 @@
  - [X] 4-2: _Trabalhando com elementos_
  - [X] 4-3: _Eventos_
  - [X] 4-4: _Web Storage_
- - [ ] 4-5: _Projeto: Arte com Pixels_
- - [ ] 4-6: _Projetos Bônus_
+ - [X] 4-5: _Projeto: Arte com Pixels_
+ - [X] 4-6: _Projetos Bônus_
 
 ##### Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 
- - [ ] 5-1: _HTML & CSS - Forms_
- - [ ] 5-2: _Bibliotecas JavaScript e Frameworks CSS_
+ - [X] 5-1: _HTML & CSS - Forms_
+ - [X] 5-2: _Bibliotecas JavaScript e Frameworks CSS_
  - [ ] 5-3: _CSS Flexbox - Parte 1_
  - [ ] 5-4: _CSS Flexbox - Parte 2_
  - [ ] 5-5: _CSS Responsivo - Mobile First_
