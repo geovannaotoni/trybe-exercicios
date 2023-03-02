@@ -31,3 +31,21 @@ const hasName = (arr, name) => {
 
 console.log(hasName(names, 'Ana'));
 console.log(hasName(names, 'Pedro'));
+
+// Exemplo da Aula
+const ages = [23,32,17,16,34]
+const someoneLessThan18 = (array) => {
+  return array.some((element) => {
+    return element < 18 // na notação de {} o some precisa de um return!!!
+  })
+}
+const someoneLess18 = (array) => {
+  return array.some((element) => element < 18)
+}
+console.log(someoneLessThan18(ages));
+console.log(someoneLess18(ages));
+
+console.log(ages.some((element) => element < 18))
+console.log(ages.some((element) => {
+  return element < 18 // aqui precisa do return
+}))
