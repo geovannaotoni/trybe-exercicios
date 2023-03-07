@@ -121,3 +121,37 @@ const longestNamedBook = () => {
   return books.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : curr);
 }
 console.log(longestNamedBook())
+
+
+// extra
+const oldBooks = (year) => books
+  .filter((book) => (year - book.releaseYear > 60))
+  .map((book) => book.name);
+console.log(oldBooks(2022));
+
+//extra2
+// const authorWith3DotsOnName = () => {
+//   books.find((book) => {
+//     const nameAuthor = book.author.name;
+//     return nameAuthor.match(/./).length === 3;
+//   });
+// };
+
+const authorWith3DotsOnName = () => books.find((book) => book.author.name.split('.').length > 3).author.name;
+console.log(authorWith3DotsOnName());
+
+const authorWith3DotsOnName2 = () => books.find((book) => book.author.name.split('').filter((letter) => letter === '.').length === 3).author.name;
+console.log(authorWith3DotsOnName2());
+
+//extra3
+const oldBooksOrdered = (year) => {
+  if (year > 2020) {
+    return books
+      .filter((book) => (year - book.releaseYear > 60 + (year - 2020)))
+      .sort((a, b) => a.releaseYear - b.releaseYear);
+  }
+  return books
+    .filter((book) => (2020 - book.releaseYear >= 60))
+    .sort((a, b) => a.releaseYear - b.releaseYear);
+};
+console.log(oldBooksOrdered(2022))
