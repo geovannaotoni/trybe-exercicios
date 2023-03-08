@@ -14,3 +14,11 @@ const fruitSalad = (fruit, additional) => {
 };
 
 console.log(fruitSalad(specialFruit, additionalItens));
+
+// Exemplos da aula
+const arrayTeste = [1, 2, 'a'];
+console.log(...arrayTeste) // 1 2 a
+
+const printPointCoordinates = (x, y, z) => `Point coordinates are x = ${x}, y = ${y} and z = ${z}`;
+const point = [1.0,2.2,-6.6]
+console.log(printPointCoordinates(...point));
