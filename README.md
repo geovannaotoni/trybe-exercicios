@@ -62,12 +62,12 @@ Bloco 4: JavaScript: DOM, Eventos e Web Storage
 Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 </summary>
 
- - [ ] 5-1: _HTML & CSS - Forms_
- - [ ] 5-2: _Bibliotecas JavaScript e Frameworks CSS_
- - [ ] 5-3: _CSS Flexbox - Parte 1_
- - [ ] 5-4: _CSS Flexbox - Parte 2_
- - [ ] 5-5: _CSS Responsivo - Mobile First_
- - [ ] 5-6: _Projeto - Trybewarts_
+ - [X] 5-1: _HTML & CSS - Forms_
+ - [X] 5-2: _Bibliotecas JavaScript e Frameworks CSS_
+ - [X] 5-3: _CSS Flexbox - Parte 1_
+ - [X] 5-4: _CSS Flexbox - Parte 2_
+ - [X] 5-5: _CSS Responsivo - Mobile First_
+ - [X] 5-6: _Projeto - Trybewarts_
 </details>
 
 <details>
@@ -75,10 +75,10 @@ Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
 Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
 </summary>
 
- - [ ] 6-1: _Fluxo de exceções e manipulação de objetos_
- - [ ] 6-2: _Primeiros passos em Jest_
- - [ ] 6-3: _Matchers e cobertura de código_
- - [ ] 6-4: _Projeto - JavaScript Testes Unitários_
+ - [X] 6-1: _Fluxo de exceções e manipulação de objetos_
+ - [X] 6-2: _Primeiros passos em Jest_
+ - [X] 6-3: _Matchers e cobertura de código_
+ - [X] 6-4: _Projeto - JavaScript Testes Unitários_
 </details>
 
 <details>
@@ -86,16 +86,119 @@ Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
 Bloco 7: Higher Order Functions do JavaScript ES6
 </summary>
 
- - [ ] 7-1: _Introdução a Higher Order Functions_
- - [ ] 7-2: _Higher Order Functions - sort e map_
- - [ ] 7-3: _Higher Order Functions - filter e reduce_
- - [ ] 7-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
- - [ ] 7-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
- - [ ] 7-6: _Projeto - Zoo functions_
+ - [X] 7-1: _Introdução a Higher Order Functions_
+ - [X] 7-2: _Higher Order Functions - sort e map_
+ - [X] 7-3: _Higher Order Functions - filter e reduce_
+ - [X] 7-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
+ - [X] 7-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+ - [X] 7-6: _Projeto - Zoo functions_
 </details>
 
 
 ## Front-End :soon:
+<details>
+<summary>
+Bloco 1: Introdução ao Frontend e JavaScript Assíncrono
+</summary>
+
+- [ ] 1-1: _Ambiente de desenvolvimento_
+- [ ] 1-2: _JavaScript Assíncrono - Promises e Fetch_
+- [ ] 1-3: _Prática - Casa de Câmbio_
+- [ ] 1-4: _Async / await e Testes Assíncronos_
+- [ ] 1-5: _Projeto - Carrinho de Compras_
+</details>
+
+<details>
+<summary>
+Bloco 2: Introdução à React
+</summary>
+
+- [ ] 2-1: _'Hello, world!' no React!_
+- [ ] 2-2: _Componentes React_
+- [ ] 2-3: _Projeto - Sistema Solar_
+</details>
+
+<details>
+<summary>
+Bloco 3: Componentes com Estado, Eventos e Formulários com React
+</summary>
+
+- [ ] 3-1: _Components com estado e eventos_
+- [ ] 3-2: _Formulários no React_
+- [ ] 3-3: _Projeto - Tryunfo_
+</details>
+
+<details>
+<summary>
+Bloco 4: Ciclo de vida de Componentes e React Router
+</summary>
+
+ - [ ] 4-1: _Ciclo de vida de componentes em React_
+ - [ ] 4-2: _React Router_
+ - [ ] 4-3: _Projeto - TrybeTunes_
+</details>
+
+<details>
+<summary>
+Bloco 5: Metodologias Ágeis
+</summary>
+
+ - [ ] 5-1: _Metodologias Ágeis_
+ - [ ] 5-2: _Projeto - Frontend Online Store_
+</details>
+
+<details>
+<summary>
+Bloco 6: Testes automatizados com React Testing Library
+</summary>
+
+ - [ ] 6-1: _RTL - Primeiros Passos_
+ - [ ] 6-2: _RTL - Mocks e Inputs_
+ - [ ] 6-3: _RTL - Testando React Router_
+ - [ ] 6-4: _Projeto - Testes em React_
+</details>
+
+<details>
+<summary>
+Bloco 7: Gerenciamento de estado com Redux
+</summary>
+
+ - [ ] 7-1: _Introdução ao Redux - O estado global da aplicação_
+ - [ ] 7-2: _Usando o Redux no React_
+ - [ ] 7-3: _Usando o Redux no React - Prática_
+ - [ ] 7-4: _Usando o Redux no React - Actions assíncronas_
+ - [ ] 7-5: _Testes em React-Redux_
+ - [ ] 7-6: _Projeto - Trybe Wallet_
+</details>
+
+<details>
+<summary>
+Bloco 8: Projeto React
+</summary>
+
+ - [ ] 8-1: _Projeto - Jogo de Trivia_
+</details>
+
+<details>
+<summary>
+Bloco 9: Context API & React Hooks
+</summary>
+
+ - [ ] 9-1: _React Hooks - useState e useContext_
+ - [ ] 9-2: _Context API do React_
+ - [ ] 9-3: _Custom Hooks_
+ - [ ] 9-4: _Projeto - StarWars Datatable com Context API e Hooks_
+</details>
+
+<details>
+<summary>
+Bloco 10: Projeto Final de Front-end
+</summary>
+
+ - [ ] 10-1: _Projeto - App de Receitas_
+</details>
+
+
 ## Back-End :soon:
 ## Ciência da Computação :soon:
 
