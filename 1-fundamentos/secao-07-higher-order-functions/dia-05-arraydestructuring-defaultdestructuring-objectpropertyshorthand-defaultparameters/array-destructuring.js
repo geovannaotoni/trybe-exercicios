@@ -54,3 +54,8 @@ console.log(numerosPares); // [6, 8, 10, 12];
 // numerosPares = [num4, num5, num6, num7];  
 [,,, ...numerosPares] = numerosPares;
 console.log(numerosPares); // [6, 8, 10, 12];
+
+// Exemplo aula - Rest
+const players = ['Neymar', 'Pelé', 'Messi', 'CR'];
+const [ first, second, ...outros] = players;
+console.log(first, second, outros);

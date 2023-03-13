@@ -101,4 +101,4 @@ const getNamesBySpecies2 = (options) => data.species.reduce((acc, { id, name }) 
 }, {});
 console.log(getNamesBySpecies2({ gender: 'F' }));
 console.log(getNamesBySpecies({ sorted: true }));
-console.log(getNamesBySpecies({ gender: 'F', sorted: true }));
+console.log(getNamesBySpecies({ gender: 'M', sorted: true }));
