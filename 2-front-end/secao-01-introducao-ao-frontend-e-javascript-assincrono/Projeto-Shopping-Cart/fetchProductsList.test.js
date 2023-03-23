@@ -17,7 +17,7 @@ describe('Testes para a função fetchProducts', () => {
     await expect(fetchProductsList('computador')).resolves.toEqual(computadorSearch);
   });
   test('Verifica se, ao chamar a função fetchProductsList sem argumento, retorna um erro', async () => {
-    await expect(fetchProductsList()).rejects.toThrow(new Error('You must provide an url'));
+    await expect(fetchProductsList()).rejects.toThrow(new Error('Termo de busca não informado'));
   })
 })
 // OU
@@ -27,6 +27,6 @@ test('Verifica se o retorno da função fetchProductsList com o argumento `compu
 });
 test('Verifica se, ao chamar a função fetchProductsList sem argumento, retorna um erro', async () => {
   const data = await fetchProductsList();
-  expect(data).rejects.toThrow(new Error('You must provide an url')); // talves sem o rejects funcione
-  expect(data).toEqual(new Error('You must provide an url'));
+  expect(data).rejects.toThrow(new Error('Termo de busca não informado')); // talves sem o rejects funcione
+  expect(data).toEqual(new Error('Termo de busca não informado'));
 })
