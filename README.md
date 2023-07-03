@@ -203,7 +203,7 @@ Bloco 10: Projeto Final de Front-end
 </details>
 
 
-## Back-End :soon:
+## Back-End :hourglass:
 <details>
 <summary>
 Bloco 1: Docker: Utilizando Containers
@@ -221,11 +221,115 @@ Bloco 1: Docker: Utilizando Containers
 Bloco 2: Introdução à SQL
 </summary>
 
-- [X] 1-1: _Banco de dados SQL_
-- [X] 1-2: _Encontrando dados em um banco de dados_
-- [X] 1-3: _Filtrando dados de forma específica_
-- [X] 1-4: _Manipulando tabelas_
-- [X] 1-5: _[Projeto - All For One]()_
+- [X] 2-1: _Banco de dados SQL_
+- [X] 2-2: _Encontrando dados em um banco de dados_
+- [X] 2-3: _Filtrando dados de forma específica_
+- [X] 2-4: _Manipulando tabelas_
+- [X] 2-5: _[Projeto - All For One]()_
+</details>
+
+<details>
+<summary>
+Bloco 3: Funções SQL, JOINs e Normalização
+</summary>
+
+- [ ] 3-1: _Funções mais usadas no SQL_
+- [ ] 3-2: _Descomplicando JOINs_
+- [ ] 3-3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 3-4: _Projeto - One For All_
+</details>
+
+<details>
+<summary>
+Bloco 4: Introdução ao desenvolvimento Web com Node.js
+</summary>
+
+- [ ] 4-1: _Node.js: Runtime Assíncrono_
+- [ ] 4-2: _Node.js: API REST com Express_
+- [ ] 4-3: _Node.js: Testes de Integração_
+- [ ] 4-4: _Node.js: Express e Middlewares_
+- [ ] 4-5: _Node.js: Express e MySQL_
+- [ ] 4-6: _Projeto - Talker Manager_
+</details>
+
+<details>
+<summary>
+Bloco 5: Arquitetura de Software: Model, Service e Controller
+</summary>
+
+- [ ] 5-1: _Arquitetura de Software - Camada Model_
+- [ ] 5-2: _Arquitetura de Software - Refatorando Camada Model_
+- [ ] 5-3: _Arquitetura de Software - Camada de Service_
+- [ ] 5-4: _Arquitetura de Software - Refatorando Camada Service_
+- [ ] 5-5: _Arquitetura de Software - Refatorando Camada Controller_
+- [ ] 5-6: _Projeto - Store Manager_
+</details>
+
+<details>
+<summary>
+Bloco 5: Arquitetura de Software: Model, Service e Controller
+</summary>
+
+- [ ] 5-1: _Arquitetura de Software - Camada Model_
+- [ ] 5-2: _Arquitetura de Software - Refatorando Camada Model_
+- [ ] 5-3: _Arquitetura de Software - Camada de Service_
+- [ ] 5-4: _Arquitetura de Software - Refatorando Camada Service_
+- [ ] 5-5: _Arquitetura de Software - Refatorando Camada Controller_
+- [ ] 5-6: _Projeto - Store Manager_
+</details>
+
+<details>
+<summary>
+Bloco 6: Node.js: ORM e Autenticação
+</summary>
+
+- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 6-3: _ORM - Associations N:N e Transactions_
+- [ ] 6-4: _JWT - (JSON Web Token)_
+- [ ] 6-5: _Projeto - API de Blogs_
+</details>
+
+<details>
+<summary>
+Bloco 7: Masterclass: Implantação de Aplicações na Nuvem
+</summary>
+
+- [ ] 7-1: _Infraestrutura: Deploy com Railway_
+</details>
+
+<details>
+<summary>
+Bloco 8: Introdução a TypeScript
+</summary>
+
+- [ ] 8-1: _Aprendendo TypeScript_
+- [ ] 8-2: _Introdução a Generics_
+- [ ] 8-3: _API REST com Express, JWT, Sequelize e TypeScript_
+- [ ] 8-4: _Testando Aplicações com TypeScript_
+- [ ] 8-5: _Projeto - Trybesmith_
+</details>
+
+<details>
+<summary>
+Bloco 9: Programação Orientada a Objetos (POO) e SOLID
+</summary>
+
+- [ ] 9-1: _Introdução à Orientação a Objetos_
+- [ ] 9-2: _Herança e Composição_
+- [ ] 9-3: _Polimorfismo_
+- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 9-5: _SOLID - Princípios L e I_
+- [ ] 9-6: _Projeto - Trybers and Dragons_
+</details>
+
+<details>
+<summary>
+Bloco 10: Projeto - TFC - Trybe Futebol Clube
+</summary>
+
+- [ ] 10-1: _Express com Classes_
+- [ ] 10-2: _Projeto - TFC - Trybe Futebol Clube_
 </details>
 
 ## Ciência da Computação :soon:
