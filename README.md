@@ -41,7 +41,7 @@ Bloco 3: Introdução à JavaScript
 - [X] 3-3: _Lógica de Programação e Algoritmos_
 - [X] 3-4: _Objetos e funções_
 - [X] 3.5: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [X] 3-6: _Projeto - Playground Functions_
+- [X] 3-6: _[Projeto - Playground Functions](https://github.com/geovannaotoni/trybe-project-playground-functions)_
 </details>
 
 <details>
@@ -53,8 +53,12 @@ Bloco 4: JavaScript: DOM, Eventos e Web Storage
  - [X] 4-2: _Trabalhando com elementos_
  - [X] 4-3: _Eventos_
  - [X] 4-4: _Web Storage_
- - [X] 4-5: _Projeto: Arte com Pixels_
+ - [X] 4-5: _[Projeto: Arte com Pixels](https://github.com/geovannaotoni/trybe-project-pixels-art)_
  - [X] 4-6: _Projetos Bônus_
+ - [X] 4-6-1: _[Color Guess](https://github.com/geovannaotoni/tryber-project-color-guess)_
+ - [X] 4-6-2: _[Meme Generator](https://github.com/geovannaotoni/trybe-project-meme-generator)_
+ - [X] 4-6-3: _[To Do List](https://github.com/geovannaotoni/trybe-project-to-do-list)_
+ - [X] 4-6-4: _[Carta Misteriosa](https://github.com/geovannaotoni/trybe-project-carta-misteriosa)_
 </details>
 
 <details>
@@ -67,7 +71,7 @@ Bloco 5: HTML e CSS: Forms, Flexbox e Responsivo
  - [X] 5-3: _CSS Flexbox - Parte 1_
  - [X] 5-4: _CSS Flexbox - Parte 2_
  - [X] 5-5: _CSS Responsivo - Mobile First_
- - [X] 5-6: _Projeto - Trybewarts_
+ - [X] 5-6: _[Projeto - Trybewarts](https://github.com/geovannaotoni/trybe-project-trybewarts)_
 </details>
 
 <details>
@@ -78,7 +82,7 @@ Bloco 6: Introdução à JavaScript ES6 e Testes Unitários
  - [X] 6-1: _Fluxo de exceções e manipulação de objetos_
  - [X] 6-2: _Primeiros passos em Jest_
  - [X] 6-3: _Matchers e cobertura de código_
- - [X] 6-4: _Projeto - JavaScript Testes Unitários_
+ - [X] 6-4: _[Projeto - JavaScript Testes Unitários](https://github.com/geovannaotoni/trybe-project-js-unit-tests)_
 </details>
 
 <details>
@@ -91,21 +95,21 @@ Bloco 7: Higher Order Functions do JavaScript ES6
  - [X] 7-3: _Higher Order Functions - filter e reduce_
  - [X] 7-4: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
  - [X] 7-5: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
- - [X] 7-6: _Projeto - Zoo functions_
+ - [X] 7-6: _[Projeto - Zoo functions](https://github.com/geovannaotoni/trybe-project-zoo-functions)_
 </details>
 
 
-## Front-End :soon:
+## Front-End :white_check_mark:
 <details>
 <summary>
 Bloco 1: Introdução ao Frontend e JavaScript Assíncrono
 </summary>
 
-- [ ] 1-1: _Ambiente de desenvolvimento_
-- [ ] 1-2: _JavaScript Assíncrono - Promises e Fetch_
-- [ ] 1-3: _Prática - Casa de Câmbio_
-- [ ] 1-4: _Async / await e Testes Assíncronos_
-- [ ] 1-5: _Projeto - Carrinho de Compras_
+- [X] 1-1: _Ambiente de desenvolvimento_
+- [X] 1-2: _JavaScript Assíncrono - Promises e Fetch_
+- [X] 1-3: _[Prática - Casa de Câmbio](https://github.com/geovannaotoni/trybe-api-casa-de-cambio)_
+- [X] 1-4: _Async / await e Testes Assíncronos_
+- [X] 1-5: _[Projeto - Carrinho de Compras](https://github.com/geovannaotoni/trybe-project-shopping-cart)_
 </details>
 
 <details>
@@ -113,9 +117,9 @@ Bloco 1: Introdução ao Frontend e JavaScript Assíncrono
 Bloco 2: Introdução à React
 </summary>
 
-- [ ] 2-1: _'Hello, world!' no React!_
-- [ ] 2-2: _Componentes React_
-- [ ] 2-3: _Projeto - Sistema Solar_
+- [X] 2-1: _'Hello, world!' no React!_
+- [X] 2-2: _Componentes React_
+- [X] 2-3: _[Projeto - Sistema Solar](https://github.com/geovannaotoni/trybe-project-solar-system)_
 </details>
 
 <details>
@@ -123,9 +127,9 @@ Bloco 2: Introdução à React
 Bloco 3: Componentes com Estado, Eventos e Formulários com React
 </summary>
 
-- [ ] 3-1: _Components com estado e eventos_
-- [ ] 3-2: _Formulários no React_
-- [ ] 3-3: _Projeto - Tryunfo_
+- [X] 3-1: _Components com estado e eventos_
+- [X] 3-2: _Formulários no React_
+- [X] 3-3: _[Projeto - Tryunfo](https://github.com/geovannaotoni/trybe-project-tryunfo)_
 </details>
 
 <details>
@@ -133,9 +137,9 @@ Bloco 3: Componentes com Estado, Eventos e Formulários com React
 Bloco 4: Ciclo de vida de Componentes e React Router
 </summary>
 
- - [ ] 4-1: _Ciclo de vida de componentes em React_
- - [ ] 4-2: _React Router_
- - [ ] 4-3: _Projeto - TrybeTunes_
+ - [X] 4-1: _Ciclo de vida de componentes em React_
+ - [X] 4-2: _React Router_
+ - [X] 4-3: _[Projeto - TrybeTunes](https://github.com/geovannaotoni/trybe-project-trybetunes)_
 </details>
 
 <details>
@@ -143,8 +147,8 @@ Bloco 4: Ciclo de vida de Componentes e React Router
 Bloco 5: Metodologias Ágeis
 </summary>
 
- - [ ] 5-1: _Metodologias Ágeis_
- - [ ] 5-2: _Projeto - Frontend Online Store_
+ - [X] 5-1: _Metodologias Ágeis_
+ - [X] 5-2: _[Projeto - Frontend Online Store](https://github.com/geovannaotoni/trybe-project-frontend-online-store)_
 </details>
 
 <details>
@@ -152,10 +156,10 @@ Bloco 5: Metodologias Ágeis
 Bloco 6: Testes automatizados com React Testing Library
 </summary>
 
- - [ ] 6-1: _RTL - Primeiros Passos_
- - [ ] 6-2: _RTL - Mocks e Inputs_
- - [ ] 6-3: _RTL - Testando React Router_
- - [ ] 6-4: _Projeto - Testes em React_
+ - [X] 6-1: _RTL - Primeiros Passos_
+ - [X] 6-2: _RTL - Mocks e Inputs_
+ - [X] 6-3: _RTL - Testando React Router_
+ - [X] 6-4: _[Projeto - Testes em React](https://github.com/geovannaotoni/trybe-project-react-testing-library)_
 </details>
 
 <details>
@@ -163,12 +167,12 @@ Bloco 6: Testes automatizados com React Testing Library
 Bloco 7: Gerenciamento de estado com Redux
 </summary>
 
- - [ ] 7-1: _Introdução ao Redux - O estado global da aplicação_
- - [ ] 7-2: _Usando o Redux no React_
- - [ ] 7-3: _Usando o Redux no React - Prática_
- - [ ] 7-4: _Usando o Redux no React - Actions assíncronas_
- - [ ] 7-5: _Testes em React-Redux_
- - [ ] 7-6: _Projeto - Trybe Wallet_
+ - [X] 7-1: _Introdução ao Redux - O estado global da aplicação_
+ - [X] 7-2: _Usando o Redux no React_
+ - [X] 7-3: _Usando o Redux no React - Prática_
+ - [X] 7-4: _Usando o Redux no React - Actions assíncronas_
+ - [X] 7-5: _Testes em React-Redux_
+ - [X] 7-6: _[Projeto - Trybe Wallet](https://github.com/geovannaotoni/trybe-project-trybewallet)_
 </details>
 
 <details>
@@ -176,7 +180,7 @@ Bloco 7: Gerenciamento de estado com Redux
 Bloco 8: Projeto React
 </summary>
 
- - [ ] 8-1: _Projeto - Jogo de Trivia_
+ - [X] 8-1: _[Projeto - Jogo de Trivia](https://github.com/geovannaotoni/trybe-project-trivia)_
 </details>
 
 <details>
@@ -184,10 +188,10 @@ Bloco 8: Projeto React
 Bloco 9: Context API & React Hooks
 </summary>
 
- - [ ] 9-1: _React Hooks - useState e useContext_
- - [ ] 9-2: _Context API do React_
- - [ ] 9-3: _Custom Hooks_
- - [ ] 9-4: _Projeto - StarWars Datatable com Context API e Hooks_
+ - [X] 9-1: _React Hooks - useState e useContext_
+ - [X] 9-2: _Context API do React_
+ - [X] 9-3: _Custom Hooks_
+ - [X] 9-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/geovannaotoni/trybe-project-starwars)_
 </details>
 
 <details>
@@ -195,11 +199,35 @@ Bloco 9: Context API & React Hooks
 Bloco 10: Projeto Final de Front-end
 </summary>
 
- - [ ] 10-1: _Projeto - App de Receitas_
+ - [X] 10-1: _[Projeto - App de Receitas](https://github.com/geovannaotoni/trybe-project-recipes-app)_
 </details>
 
 
 ## Back-End :soon:
+<details>
+<summary>
+Bloco 1: Docker: Utilizando Containers
+</summary>
+
+- [X] 1-1: _Utilizando Containers - Docker_
+- [X] 1-2: _Manipulando Imagens no Docker_
+- [X] 1-3: _Orquestrando Containers com Docker Compose_
+- [X] 1-4: _Async / await e Testes Assíncronos_
+- [X] 1-5: _[Projeto - Docker Todo-List](https://github.com/geovannaotoni/trybe-project-docker-todo-list)_
+</details>
+
+<details>
+<summary>
+Bloco 2: Introdução à SQL
+</summary>
+
+- [X] 1-1: _Banco de dados SQL_
+- [X] 1-2: _Encontrando dados em um banco de dados_
+- [X] 1-3: _Filtrando dados de forma específica_
+- [X] 1-4: _Manipulando tabelas_
+- [X] 1-5: _[Projeto - All For One]()_
+</details>
+
 ## Ciência da Computação :soon:
 
 
