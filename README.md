@@ -225,7 +225,7 @@ Bloco 2: Introdução à SQL
 - [X] 2-2: _Encontrando dados em um banco de dados_
 - [X] 2-3: _Filtrando dados de forma específica_
 - [X] 2-4: _Manipulando tabelas_
-- [X] 2-5: _[Projeto - All For One]()_
+- [X] 2-5: _[Projeto - All For One](https://github.com/geovannaotoni/trybe-project-mysql-all-for-one)_
 </details>
 
 <details>
