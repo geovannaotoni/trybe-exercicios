@@ -5,6 +5,14 @@ const validateTeam = (req, res, next) => {
   } else {
     res.sendStatus(400); // Ou já responde avisando que deu errado
   }
+
+  /*
+  // trazendo mensagens de erro personalizadas:
+  const { nome, sigla } = req.body;
+  if (!nome) return res.status(400).json({ message: 'O campo "nome" é obrigatório'});
+  if (!sigla) return res.status(400).json({ message: 'O campo "sigla" é obrigatório'});
+  next();
+  */
 };
 
 module.exports = validateTeam;
