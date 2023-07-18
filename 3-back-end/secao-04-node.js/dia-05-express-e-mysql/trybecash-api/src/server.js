@@ -11,4 +11,6 @@ app.listen(PORT, async () => {
   // if (result) {
   //   console.log('MySQL connection OK');
   // }
+  
+  // console.log(`Valor da variável de ambiente $USER: ${process.env.USER}`);
 });

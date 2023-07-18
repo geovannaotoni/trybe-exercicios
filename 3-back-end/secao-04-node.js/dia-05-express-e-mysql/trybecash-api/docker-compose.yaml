@@ -18,23 +18,27 @@ services:
     ports:
       # Expõe a porta padrão da aplicação: altere aqui caso use outra porta; na notação porta_de_fora:porta_de_dentro
       - 3001:3001
-    environment:
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_HOST: database
-      MYSQL_PORT: 3306
+    # environment:
+      # MYSQL_USER: root # Aqui é o valor do nome de usuário que por padrão é root.
+      # MYSQL_PASSWORD: root # o valor desta variável de ambiente ser igual ao valor da variável MYSQL_ROOT_PASSWORD definida no serviço do mysql
+      # MYSQL_HOST: database # nome do serviço do docker-compose que roda o mysql
+      # MYSQL_PORT: 3306
+      # A porta aqui é 3306 e não 33060 pois nesse caso estamos informando
+      # o valor de um container (node) para outro (database)
     # Informa ao docker, para que o container node seja iniciado após o container database
     depends_on:
       - "database"
+    env_file:
+      - .env
 
   database:
     image: mysql:8.0.29
     restart: always
     environment:
       # Essa variável define a senha do usuário root do MySQL (será a senha que utilizaremos para acessar o MySQL)
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
       # Essa variável define o nome do banco de dados que será criado ao iniciar MySQL, caso ele não exista.
-      MYSQL_DATABASE: trybecashdb
+      MYSQL_DATABASE: ${MYSQL_DATABASE_NAME}
     ports:
       - "33060:3306"
     volumes:
