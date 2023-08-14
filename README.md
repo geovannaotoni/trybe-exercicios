@@ -233,10 +233,10 @@ Bloco 2: Introdução à SQL
 Bloco 3: Funções SQL, JOINs e Normalização
 </summary>
 
-- [ ] 3-1: _Funções mais usadas no SQL_
-- [ ] 3-2: _Descomplicando JOINs_
-- [ ] 3-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 3-4: _[Projeto - One For All](https://github.com/geovannaotoni/trybe-project-mysql-one-for-all)_
+- [X] 3-1: _Funções mais usadas no SQL_
+- [X] 3-2: _Descomplicando JOINs_
+- [X] 3-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 3-4: _[Projeto - One For All](https://github.com/geovannaotoni/trybe-project-mysql-one-for-all)_
 </details>
 
 <details>
@@ -244,12 +244,12 @@ Bloco 3: Funções SQL, JOINs e Normalização
 Bloco 4: Introdução ao desenvolvimento Web com Node.js
 </summary>
 
-- [ ] 4-1: _Node.js: Runtime Assíncrono_
-- [ ] 4-2: _Node.js: API REST com Express_
-- [ ] 4-3: _Node.js: Testes de Integração_
-- [ ] 4-4: _Node.js: Express e Middlewares_
-- [ ] 4-5: _Node.js: Express e MySQL_
-- [ ] 4-6: _Projeto - Talker Manager_
+- [X] 4-1: _Node.js: Runtime Assíncrono_
+- [X] 4-2: _Node.js: API REST com Express_
+- [X] 4-3: _Node.js: Testes de Integração_
+- [X] 4-4: _Node.js: Express e Middlewares_
+- [X] 4-5: _Node.js: Express e MySQL_
+- [X] 4-6: _[Projeto - Talker Manager](https://github.com/geovannaotoni/trybe-project-talker-manager)_
 </details>
 
 <details>
@@ -257,11 +257,11 @@ Bloco 4: Introdução ao desenvolvimento Web com Node.js
 Bloco 5: Arquitetura de Software: Model, Service e Controller
 </summary>
 
-- [ ] 5-1: _Arquitetura de Software - Camada Model_
-- [ ] 5-2: _Arquitetura de Software - Refatorando Camada Model_
-- [ ] 5-3: _Arquitetura de Software - Camada de Service_
-- [ ] 5-4: _Arquitetura de Software - Refatorando Camada Service_
-- [ ] 5-5: _Arquitetura de Software - Refatorando Camada Controller_
+- [X] 5-1: _Arquitetura de Software - Camada Model_
+- [X] 5-2: _Arquitetura de Software - Refatorando Camada Model_
+- [X] 5-3: _Arquitetura de Software - Camada de Service_
+- [X] 5-4: _Arquitetura de Software - Refatorando Camada Service_
+- [X] 5-5: _Arquitetura de Software - Refatorando Camada Controller_
 - [ ] 5-6: _Projeto - Store Manager_
 </details>
 
