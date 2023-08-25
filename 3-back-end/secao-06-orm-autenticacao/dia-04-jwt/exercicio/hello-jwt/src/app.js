@@ -30,6 +30,7 @@ app.get('/top-secret',
   /* Controller do endpoint */
   controllers.topSecret,
 );
+app.post('/signup', controllers.signup);
 
 app.use(middlewares.error);
 
