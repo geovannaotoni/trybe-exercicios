@@ -270,11 +270,11 @@ Bloco 5: Arquitetura de Software: Model, Service e Controller
 Bloco 6: Node.js: ORM e Autenticação
 </summary>
 
-- [ ] 6-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 6-2: _ORM - Associations 1:1 e 1:N_
-- [ ] 6-3: _ORM - Associations N:N e Transactions_
-- [ ] 6-4: _JWT - (JSON Web Token)_
-- [ ] 6-5: _Projeto - API de Blogs_
+- [X] 6-1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 6-2: _ORM - Associations 1:1 e 1:N_
+- [X] 6-3: _ORM - Associations N:N e Transactions_
+- [X] 6-4: _JWT - (JSON Web Token)_
+- [X] 6-5: _[Projeto - API de Blogs](https://github.com/geovannaotoni/trybe-project-blogs-api)_
 </details>
 
 <details>
@@ -282,7 +282,7 @@ Bloco 6: Node.js: ORM e Autenticação
 Bloco 7: Masterclass: Implantação de Aplicações na Nuvem
 </summary>
 
-- [ ] 7-1: _Infraestrutura: Deploy com Railway_
+- [X] 7-1: _Infraestrutura: Deploy com Railway_
 </details>
 
 <details>
@@ -290,8 +290,8 @@ Bloco 7: Masterclass: Implantação de Aplicações na Nuvem
 Bloco 8: Introdução a TypeScript
 </summary>
 
-- [ ] 8-1: _Aprendendo TypeScript_
-- [ ] 8-2: _Introdução a Generics_
+- [X] 8-1: _[Aprendendo TypeScript](https://github.com/geovannaotoni/typescript-trybe-crafts)_
+- [X] 8-2: _[Introdução a Generics](https://github.com/geovannaotoni/typescript-trybe-mercadinho)_
 - [ ] 8-3: _API REST com Express, JWT, Sequelize e TypeScript_
 - [ ] 8-4: _Testando Aplicações com TypeScript_
 - [ ] 8-5: _Projeto - Trybesmith_
