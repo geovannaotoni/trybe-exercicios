@@ -293,7 +293,7 @@ Bloco 8: Introdução a TypeScript
 - [X] 8-1: _[Aprendendo TypeScript](https://github.com/geovannaotoni/typescript-trybe-crafts)_
 - [X] 8-2: _[Introdução a Generics](https://github.com/geovannaotoni/typescript-trybe-mercadinho)_
 - [X] 8-3: _[API REST com Express, JWT, Sequelize e TypeScript](https://github.com/geovannaotoni/typescript-trybe-travel)_
-- [ ] 8-4: _Testando Aplicações com TypeScript_
+- [X] 8-4: _[Testando Aplicações com TypeScript](https://github.com/geovannaotoni/typescript-trybe-transactions-api)_
 - [ ] 8-5: _Projeto - Trybesmith_
 </details>
 
