@@ -294,7 +294,7 @@ Bloco 8: Introdução a TypeScript
 - [X] 8-2: _[Introdução a Generics](https://github.com/geovannaotoni/typescript-trybe-mercadinho)_
 - [X] 8-3: _[API REST com Express, JWT, Sequelize e TypeScript](https://github.com/geovannaotoni/typescript-trybe-travel)_
 - [X] 8-4: _[Testando Aplicações com TypeScript](https://github.com/geovannaotoni/typescript-trybe-transactions-api)_
-- [ ] 8-5: _Projeto - Trybesmith_
+- [X] 8-5: _[Projeto - Trybesmith](https://github.com/geovannaotoni/trybe-project-trybesmith)_
 </details>
 
 <details>
@@ -302,8 +302,8 @@ Bloco 8: Introdução a TypeScript
 Bloco 9: Programação Orientada a Objetos (POO) e SOLID
 </summary>
 
-- [ ] 9-1: _Introdução à Orientação a Objetos_
-- [ ] 9-2: _Herança e Composição_
+- [X] 9-1: _Introdução à Orientação a Objetos_
+- [X] 9-2: _Herança e Composição_
 - [ ] 9-3: _Polimorfismo_
 - [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
 - [ ] 9-5: _SOLID - Princípios L e I_
@@ -321,8 +321,7 @@ Bloco 10: Projeto - TFC - Trybe Futebol Clube
 
 ## Ciência da Computação :soon:
 
-
-
+## Eletiva :soon:
 
 <!--
 Turma 30 | Janeiro de 2023.
