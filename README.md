@@ -304,10 +304,10 @@ Bloco 9: Programação Orientada a Objetos (POO) e SOLID
 
 - [X] 9-1: _Introdução à Orientação a Objetos_
 - [X] 9-2: _Herança e Composição_
-- [ ] 9-3: _Polimorfismo_
-- [ ] 9-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 9-5: _SOLID - Princípios L e I_
-- [ ] 9-6: _Projeto - Trybers and Dragons_
+- [X] 9-3: _Polimorfismo_
+- [X] 9-4: _SOLID - Introdução e Princípios S, O e D_
+- [X] 9-5: _SOLID - Princípios L e I_
+- [X] 9-6: _[Projeto - Trybers and Dragons](https://github.com/geovannaotoni/trybe-project-trybers-and-dragons)_
 </details>
 
 <details>
@@ -315,7 +315,7 @@ Bloco 9: Programação Orientada a Objetos (POO) e SOLID
 Bloco 10: Projeto - TFC - Trybe Futebol Clube
 </summary>
 
-- [ ] 10-1: _Express com Classes_
+- [X] 10-1: _[Express com Classes](https://github.com/geovannaotoni/trybeteca-api)_
 - [ ] 10-2: _Projeto - TFC - Trybe Futebol Clube_
 </details>
 
