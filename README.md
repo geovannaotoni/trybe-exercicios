@@ -316,10 +316,10 @@ Bloco 10: Projeto - TFC - Trybe Futebol Clube
 </summary>
 
 - [X] 10-1: _[Express com Classes](https://github.com/geovannaotoni/trybeteca-api)_
-- [ ] 10-2: _Projeto - TFC - Trybe Futebol Clube_
+- [X] 10-2: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/geovannaotoni/trybe-project-trybe-futebol-clube)_
 </details>
 
-## Ciência da Computação :soon:
+## Ciência da Computação :hourglass:
 
 ## Eletiva :soon:
 
