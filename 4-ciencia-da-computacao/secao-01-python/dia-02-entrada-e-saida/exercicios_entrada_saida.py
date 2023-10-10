@@ -8,6 +8,7 @@ def username(name):
     for letter in name:
         print(letter)
 
+
 username(user_input)
 
 
@@ -19,7 +20,7 @@ number_list = input("Digite os números naturais separados por espaço: ").split
 def soma(lista):
     count = 0
     for num in lista:
-        if(num.isdigit()):
+        if (num.isdigit()):
             count += int(num)
         else:
             print(f"Erro ao somar valores, {num} é um valor inválido")
