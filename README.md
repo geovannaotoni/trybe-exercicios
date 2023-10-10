@@ -320,6 +320,47 @@ Bloco 10: Projeto - TFC - Trybe Futebol Clube
 </details>
 
 ## Ciência da Computação :hourglass:
+<details>
+<summary>
+Bloco 1: Introdução a Python
+</summary>
+
+- [X] 1-1: _Aprendendo Python_
+- [X] 1-2: _Entrada e Saída de Dados com Testes_
+</details>
+
+<details>
+<summary>
+Bloco 2: Algoritmos
+</summary>
+
+- [ ] 2-1: _Complexidade de Algoritmos_
+- [ ] 2-2: _Recursividade e Estratégias para Solução de Problemas_
+- [ ] 2-3: _Algoritmos de ordenação e busca_
+- [ ] 2-4: _Projeto - Algoritmos_
+</details>
+
+<details>
+<summary>
+Bloco 3: Estrutura de Dados I: Listas Lineares
+</summary>
+
+- [ ] 3-1: _P.O.O em Python_
+- [ ] 3-2: _Arrays_
+- [ ] 3-3: _Nó e Listas Encadeadas_
+- [ ] 3-4: _Pilhas e Filas_
+- [ ] 3-5: _Projeto TING - Trybe Is Not Google_ 
+</details>
+
+<details>
+<summary>
+Bloco 4: Estrutura de Dados II: Hashmaps e Sets
+</summary>
+
+- [ ] 4-1: _Hashmap e Dict_
+- [ ] 4-2: _Set_
+- [ ] 4-3: _Projeto Restaurant Orders_
+</details>
 
 ## Eletiva :soon:
 
