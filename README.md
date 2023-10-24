@@ -325,7 +325,7 @@ Bloco 10: Projeto - TFC - Trybe Futebol Clube
 Bloco 1: Introdução a Python
 </summary>
 
-- [X] 1-1: _Aprendendo Python_
+- [X] 1-1: _[Aprendendo Python](https://github.com/geovannaotoni/trybe-exercise-intro-to-python)_
 - [X] 1-2: _Entrada e Saída de Dados com Testes_
 </details>
 
@@ -334,10 +334,10 @@ Bloco 1: Introdução a Python
 Bloco 2: Algoritmos
 </summary>
 
-- [ ] 2-1: _Complexidade de Algoritmos_
-- [ ] 2-2: _Recursividade e Estratégias para Solução de Problemas_
-- [ ] 2-3: _Algoritmos de ordenação e busca_
-- [ ] 2-4: _Projeto - Algoritmos_
+- [X] 2-1: _Complexidade de Algoritmos_
+- [X] 2-2: _Recursividade e Estratégias para Solução de Problemas_
+- [X] 2-3: _Algoritmos de ordenação e busca_
+- [X] 2-4: _[Projeto - Algoritmos](https://github.com/geovannaotoni/trybe-project-python-algorithms)_
 </details>
 
 <details>
