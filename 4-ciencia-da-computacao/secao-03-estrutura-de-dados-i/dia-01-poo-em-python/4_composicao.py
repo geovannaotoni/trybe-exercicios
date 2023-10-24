@@ -10,7 +10,7 @@ class Pessoa:
             self.liquidificador = liquidificador
 
     def __str__(self):
-        return f"{self.nome} - possui {self.saldo_na_conta} reais em sua conta."
+        return f"{self.nome} - possui {self.saldo_na_conta} reais em sua conta"
 
 
 pessoa_cozinheira = Pessoa("Jacquin", 1000)
