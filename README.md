@@ -357,9 +357,9 @@ Bloco 3: Estrutura de Dados I: Listas Lineares
 Bloco 4: Estrutura de Dados II: Hashmaps e Sets
 </summary>
 
-- [X] 4-1: _Hashmap e Dict_
+- [X] 4-1: _[Hashmap e Dict](https://github.com/geovannaotoni/trybe-exercise-python-facebook)_
 - [X] 4-2: _Set_
-- [ ] 4-3: _Projeto Restaurant Orders_
+- [X] 4-3: _[Projeto Restaurant Orders](https://github.com/geovannaotoni/trybe-project-python-restaurant-orders)_
 </details>
 
 ## Eletiva :soon:
