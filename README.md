@@ -345,11 +345,11 @@ Bloco 2: Algoritmos
 Bloco 3: Estrutura de Dados I: Listas Lineares
 </summary>
 
-- [ ] 3-1: _P.O.O em Python_
-- [ ] 3-2: _Arrays_
-- [ ] 3-3: _Nó e Listas Encadeadas_
-- [ ] 3-4: _Pilhas e Filas_
-- [ ] 3-5: _Projeto TING - Trybe Is Not Google_ 
+- [X] 3-1: _P.O.O em Python_
+- [X] 3-2: _Arrays_
+- [X] 3-3: _Nó e Listas Encadeadas_
+- [X] 3-4: _Pilhas e Filas_
+- [X] 3-5: _[Projeto TING - Trybe Is Not Google](https://github.com/geovannaotoni/trybe-project-python-ting)_ 
 </details>
 
 <details>
@@ -357,8 +357,8 @@ Bloco 3: Estrutura de Dados I: Listas Lineares
 Bloco 4: Estrutura de Dados II: Hashmaps e Sets
 </summary>
 
-- [ ] 4-1: _Hashmap e Dict_
-- [ ] 4-2: _Set_
+- [X] 4-1: _Hashmap e Dict_
+- [X] 4-2: _Set_
 - [ ] 4-3: _Projeto Restaurant Orders_
 </details>
 
