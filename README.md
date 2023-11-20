@@ -203,7 +203,7 @@ Bloco 10: Projeto Final de Front-end
 </details>
 
 
-## Back-End :hourglass:
+## Back-End :white_check_mark:
 <details>
 <summary>
 Bloco 1: Docker: Utilizando Containers
@@ -362,7 +362,7 @@ Bloco 4: Estrutura de Dados II: Hashmaps e Sets
 - [X] 4-3: _[Projeto Restaurant Orders](https://github.com/geovannaotoni/trybe-project-python-restaurant-orders)_
 </details>
 
-## Eletiva :soon:
+## Eletiva :hourglass:
 
 <!--
 Turma 30 | Janeiro de 2023.
