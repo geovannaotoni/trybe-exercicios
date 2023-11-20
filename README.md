@@ -319,7 +319,7 @@ Bloco 10: Projeto - TFC - Trybe Futebol Clube
 - [X] 10-2: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/geovannaotoni/trybe-project-trybe-futebol-clube)_
 </details>
 
-## Ciência da Computação :hourglass:
+## Ciência da Computação :white_check_mark:
 <details>
 <summary>
 Bloco 1: Introdução a Python
@@ -362,7 +362,44 @@ Bloco 4: Estrutura de Dados II: Hashmaps e Sets
 - [X] 4-3: _[Projeto Restaurant Orders](https://github.com/geovannaotoni/trybe-project-python-restaurant-orders)_
 </details>
 
-## Eletiva :hourglass:
+## Eletiva - Java :hourglass:
+<details>
+<summary>
+Bloco 1: Fundamentos de Java
+</summary>
+
+- [X] 1-1: _Introdução ao Desenvolvimento em Java e Ferramentas Essenciais_
+- [X] 1-2: _[Classes e Tipos de Dados](https://github.com/geovannaotoni/java-exercise-fundamentos)_
+- [X] 1-3: _[Controle de Fluxo e Entrada de Dados](https://github.com/geovannaotoni/java-exercise-escola-inteligente)_
+- [X] 1-4: _[Gerenciamento de Dependências](https://github.com/geovannaotoni/java-exercise-conta-bancaria-maven)_
+- [X] 1-5: _[Projeto - Regra de Progressão](https://github.com/geovannaotoni/java-projeto-regra-progressao)_
+</details>
+
+<details>
+<summary>
+Bloco 2: Orientação a Objetos
+</summary>
+
+- [ ] 2-1: _Abstração e Encapsulamento_
+- [ ] 2-2: _[Herança e Polimorfismo]()_
+- [ ] 2-3: _[Classes Abstratas e Interfaces]()_
+- [ ] 2-4: _[Projeto - Sistema de Votação]()_
+</details>
+
+<details>
+<summary>
+Bloco 3: Java Web
+</summary>
+
+- [ ] 3-1: _Introdução a Java Web e Spring_
+- [ ] 3-2: _Injeção de dependência com Spring_
+- [ ] 3-3: _API REST com Spring_
+- [ ] 3-4: _Aula ao Vivo_
+- [ ] 3-5: _Exceções_
+- [ ] 3-6: _Testes com JUnit_
+- [ ] 3-7: _Containers Java e Docker_
+- [ ] 3-8: _[Projeto - Localizador de Museus]()_
+</details>
 
 <!--
 Turma 30 | Janeiro de 2023.
