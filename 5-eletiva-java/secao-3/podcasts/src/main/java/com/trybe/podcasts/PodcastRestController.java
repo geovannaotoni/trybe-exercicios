@@ -1,6 +1,7 @@
 package com.trybe.podcasts;
 
 import java.util.Random;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -56,14 +57,11 @@ public class PodcastRestController {
 //    return ResponseEntity.status(HttpStatus.CREATED).body(newPodcast);
 //  }
 
-  Podcast findPodcastById(Integer id) {
-    Podcast podcast = new Podcast();
-    podcast.setId(id);
-    podcast.setName("Meu podcast");
-    podcast.setUrl("http://www.meupodcast.com.br");
-    podcast.setSecretToken("super-secret-token-123");
+  private PodcastService service;
 
-    return podcast;
+  @Autowired
+  public PodcastRestController(PodcastService service) {
+    this.service = service;
   }
 
   @GetMapping("/{id}")
@@ -71,7 +69,7 @@ public class PodcastRestController {
     if (id > 1000)
       return ResponseEntity.notFound().build();
 
-    Podcast podcast = findPodcastById(id);
+    Podcast podcast = service.findPodcastById(id);
 
     PodcastDto podcastDto = new PodcastDto(
         podcast.getId(), podcast.getName(), podcast.getUrl()
@@ -80,22 +78,9 @@ public class PodcastRestController {
     return ResponseEntity.ok(podcastDto);
   }
 
-  Podcast createPodcast(PodcastCreationDto newPodcastDto) {
-    Podcast podcast = new Podcast();
-    // Vamos fingir que estamos salvando o podcast
-    // ao atribuir um ID aleatório a ele
-    podcast.setId(new Random().nextInt(0, 1000));
-    podcast.setSecretToken("super-secret-token-123");
-
-    podcast.setName(newPodcastDto.name());
-    podcast.setUrl(newPodcastDto.url());
-
-    return podcast;
-  }
-
   @PostMapping
   public ResponseEntity<PodcastDto> newPodcast(@RequestBody PodcastCreationDto newPodcast) {
-    Podcast podcast = createPodcast(newPodcast);
+    Podcast podcast = service.createPodcast(newPodcast);
 
     PodcastDto podcastDto = new PodcastDto(
         podcast.getId(), podcast.getName(), podcast.getUrl()
