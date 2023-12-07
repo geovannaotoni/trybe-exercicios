@@ -380,10 +380,10 @@ Bloco 1: Fundamentos de Java
 Bloco 2: Orientação a Objetos
 </summary>
 
-- [ ] 2-1: _Abstração e Encapsulamento_
-- [ ] 2-2: _[Herança e Polimorfismo]()_
-- [ ] 2-3: _[Classes Abstratas e Interfaces]()_
-- [ ] 2-4: _[Projeto - Sistema de Votação]()_
+- [X] 2-1: _Abstração e Encapsulamento_
+- [X] 2-2: _Herança e Polimorfismo_
+- [X] 2-3: _[Classes Abstratas e Interfaces](https://github.com/geovannaotoni/java-exercise-gestao-de-veiculos)_
+- [X] 2-4: _[Projeto - Sistema de Votação](https://github.com/geovannaotoni/java-project-voting-system)_
 </details>
 
 <details>
@@ -391,11 +391,11 @@ Bloco 2: Orientação a Objetos
 Bloco 3: Java Web
 </summary>
 
-- [ ] 3-1: _Introdução a Java Web e Spring_
-- [ ] 3-2: _Injeção de dependência com Spring_
-- [ ] 3-3: _API REST com Spring_
-- [ ] 3-4: _Aula ao Vivo_
-- [ ] 3-5: _Exceções_
+- [X] 3-1: _Introdução a Java Web e Spring_
+- [X] 3-2: _[Injeção de dependência com Spring](https://github.com/geovannaotoni/java-exercise-weather-report)_
+- [X] 3-3: _[API REST com Spring](https://github.com/geovannaotoni/java-exercise-fitness-api)_
+- [X] 3-4: _[Aula ao Vivo](https://github.com/geovannaotoni/java-exercise-gerenciador-de-tarefas)_
+- [X] 3-5: _[Exceções](https://github.com/geovannaotoni/java-exercise-age-calculator)_
 - [ ] 3-6: _Testes com JUnit_
 - [ ] 3-7: _Containers Java e Docker_
 - [ ] 3-8: _[Projeto - Localizador de Museus]()_
