@@ -396,10 +396,54 @@ Bloco 3: Java Web
 - [X] 3-3: _[API REST com Spring](https://github.com/geovannaotoni/java-exercise-fitness-api)_
 - [X] 3-4: _[Aula ao Vivo](https://github.com/geovannaotoni/java-exercise-gerenciador-de-tarefas)_
 - [X] 3-5: _[Exceções](https://github.com/geovannaotoni/java-exercise-age-calculator)_
-- [ ] 3-6: _Testes com JUnit_
-- [ ] 3-7: _Containers Java e Docker_
-- [ ] 3-8: _[Projeto - Localizador de Museus]()_
+- [X] 3-6: _Testes com JUnit_
+- [X] 3-7: _Containers Java e Docker_
+- [X] 3-8: _[Projeto - Localizador de Museus](https://github.com/geovannaotoni/java-project-localizador-de-museus)_
 </details>
+
+<details>
+<summary>
+Bloco 4: Persistência I
+</summary>
+
+- [X] 3-1: _[Coleções](https://github.com/geovannaotoni/java-exercise-movie-queries)_
+- [X] 3-2: _Spring Data JPA_
+- [X] 3-3: _Spring Data Relacionamentos_
+- [X] 3-4: _[Projeto - Agrix Fase A]()_
+</details>
+
+<details>
+<summary>
+Bloco 5: Persistência II
+</summary>
+
+- [ ] 4-1: _Testes com Spring Data_
+- [ ] 4-2: _Data e Hora_
+- [ ] 4-3: _Buscas customizadas_
+- [ ] 4-4: _Auditoria_
+- [ ] 4-5: _[Projeto - Agrix Fase B]()_
+</details>
+
+<details>
+<summary>
+Bloco 5: Persistência II
+</summary>
+
+- [ ] 5-1: _Autenticação_
+- [ ] 5-2: _Autorização_
+- [ ] 5-3: _[Projeto - Agrix Fase C]()_
+</details>
+
+<details>
+<summary>
+Bloco 5: Persistência II
+</summary>
+
+- [ ] 5-1: _Protocolos de computação e programação em nuvem_
+- [ ] 5-2: _CI/CD_
+- [ ] 5-3: _[Projeto - Agrix Fase C]()_
+</details>
+
 
 <!--
 Turma 30 | Janeiro de 2023.
