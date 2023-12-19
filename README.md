@@ -426,7 +426,7 @@ Bloco 5: Persistência II
 
 <details>
 <summary>
-Bloco 5: Persistência II
+Bloco 6: Spring Security
 </summary>
 
 - [ ] 5-1: _Autenticação_
@@ -436,7 +436,7 @@ Bloco 5: Persistência II
 
 <details>
 <summary>
-Bloco 5: Persistência II
+Bloco 7: Deploy
 </summary>
 
 - [ ] 5-1: _Protocolos de computação e programação em nuvem_
