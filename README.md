@@ -421,7 +421,7 @@ Bloco 5: Persistência II
 - [ ] 4-2: _Data e Hora_
 - [ ] 4-3: _Buscas customizadas_
 - [ ] 4-4: _Auditoria_
-- [ ] 4-5: _[Projeto - Agrix Fase B]()_
+- [ ] 4-5: _[Projeto - Agrix Fase B](https://github.com/geovannaotoni/java-project-agrix-stage-b)_
 </details>
 
 <details>
