@@ -110,6 +110,8 @@ Bloco 1: Introdução ao Frontend e JavaScript Assíncrono
 - [X] 1-3: _[Prática - Casa de Câmbio](https://github.com/geovannaotoni/trybe-api-casa-de-cambio)_
 - [X] 1-4: _Async / await e Testes Assíncronos_
 - [X] 1-5: _[Projeto - Carrinho de Compras](https://github.com/geovannaotoni/trybe-project-shopping-cart)_
+
+- [X] 1-5 - TS: [Projeto - iChoveu](https://github.com/geovannaotoni/trybe-project-ichoveu)
 </details>
 
 <details>
@@ -120,6 +122,8 @@ Bloco 2: Introdução à React
 - [X] 2-1: _'Hello, world!' no React!_
 - [X] 2-2: _Componentes React_
 - [X] 2-3: _[Projeto - Sistema Solar](https://github.com/geovannaotoni/trybe-project-solar-system)_
+
+- [X] 2-7 - TS: _[Projeto - Password Manager](https://github.com/geovannaotoni/trybe-project-password-manager)_
 </details>
 
 <details>
@@ -409,7 +413,7 @@ Bloco 4: Persistência I
 - [X] 3-1: _[Coleções](https://github.com/geovannaotoni/java-exercise-movie-queries)_
 - [X] 3-2: _Spring Data JPA_
 - [X] 3-3: _Spring Data Relacionamentos_
-- [X] 3-4: _[Projeto - Agrix Fase A]()_
+- [X] 3-4: _[Projeto - Agrix Fase A](https://github.com/geovannaotoni/java-project-agrix-stage-a)_
 </details>
 
 <details>
@@ -417,11 +421,11 @@ Bloco 4: Persistência I
 Bloco 5: Persistência II
 </summary>
 
-- [ ] 4-1: _Testes com Spring Data_
-- [ ] 4-2: _Data e Hora_
-- [ ] 4-3: _Buscas customizadas_
-- [ ] 4-4: _Auditoria_
-- [ ] 4-5: _[Projeto - Agrix Fase B](https://github.com/geovannaotoni/java-project-agrix-stage-b)_
+- [X] 4-1: _Testes com Spring Data_
+- [X] 4-2: _Data e Hora_
+- [X] 4-3: _Buscas customizadas_
+- [X] 4-4: _Auditoria_
+- [X] 4-5: _[Projeto - Agrix Fase B](https://github.com/geovannaotoni/java-project-agrix-stage-b)_
 </details>
 
 <details>
@@ -429,9 +433,9 @@ Bloco 5: Persistência II
 Bloco 6: Spring Security
 </summary>
 
-- [ ] 5-1: _Autenticação_
-- [ ] 5-2: _Autorização_
-- [ ] 5-3: _[Projeto - Agrix Fase C]()_
+- [X] 5-1: _Autenticação_
+- [X] 5-2: _Autorização_
+- [X] 5-3: _[Projeto - Agrix Fase C](https://github.com/geovannaotoni/java-project-agrix-stage-c)_
 </details>
 
 <details>
